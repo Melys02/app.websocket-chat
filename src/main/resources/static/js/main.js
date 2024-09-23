@@ -15,6 +15,7 @@ if(username){
 username.addClass("d-none");
 chatPage.removeClass("d-none");
 }
+event.preventdefault();
 
 
 
